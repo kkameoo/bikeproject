@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.io.PrintWriter" %><%--
   Created by IntelliJ IDEA.
   User: khdg1
   Date: 2023-06-06
@@ -8,6 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
+<%
+    String memberId = (String)session.getAttribute("ID");
+    boolean login = memberId == null ? false : true;
+%>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -16,6 +20,16 @@
     <link rel="stylesheet" href="css/board.css">
 </head>
 <body>
+
+<%
+    PrintWriter script = response.getWriter();
+    if (!login) {
+        script.println("<script>");
+        script.println("alert('로그인 하십시오.')");
+        script.println("history.back()");
+        script.println("</script>");
+    }
+%>
 <div class="board_wrap">
     <div class="board_title" onclick="location.href='board.html'">
         <strong>게시글작성</strong>

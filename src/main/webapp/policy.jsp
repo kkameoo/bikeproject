@@ -65,7 +65,7 @@
 <div class="header-center">
     <ul>
         <li class>
-            <a href="map.html" class="map">MAP</a>
+            <a href="map.jsp" class="map">MAP</a>
         </li>
         <li class>
             <a href="Board.jsp" class="board">Board</a>

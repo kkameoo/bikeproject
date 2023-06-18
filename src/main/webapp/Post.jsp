@@ -9,6 +9,10 @@
 <% request.setCharacterEncoding("UTF-8"); %>
 
 <!DOCTYPE html>
+<%
+    String memberId = (String)session.getAttribute("ID");
+    boolean login = memberId == null ? false : true;
+%>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -24,8 +28,20 @@
 
         <!-- 로그인 / 로그아웃 -->
         <div class="log">
-            <a href="login.jsp" class="logincheck">로그인&nbsp;&nbsp;/&nbsp;&nbsp;</a>
-            <a href="myfavorite.html" class="myfavorite">내 표시 보기</a>
+            <%
+                if (login){
+            %>
+            <br>
+            <a href="logout.jsp" class="logincheck">로그아웃&nbsp;&nbsp;/&nbsp;&nbsp;</a>
+            <a href="myfavorite.html" class="myfavorite">아이디 "<%=memberId%>"로 로그인한 상태</a>
+            <%
+            } else {
+            %>
+            <a href="/login.jsp" class="logincheck">로그인&nbsp;&nbsp;/&nbsp;&nbsp;</a>
+            로그인하지 않은 상태
+            <%
+                }
+            %>
         </div>
     </div>
 </div>
@@ -33,16 +49,16 @@
 <div class="header-center">
     <ul>
         <li class>
-            <a href="map.html" class="Map">MAP</a>
+            <a href="map.jsp" class="Map">MAP</a>
         </li>
         <li class>
-            <a href="board.html" class="Board">Board</a>
+            <a href="Board.jsp" class="Board">Board</a>
         </li>
         <li class>
             <a href="danger.html" class="danger">Danger</a>
         </li>
         <li class>
-            <a href="locker.html" class="Locker">Locker</a>
+            <a href="bikeRental.jsp" class="Locker">Locker</a>
         </li>
     </ul>
 </div>

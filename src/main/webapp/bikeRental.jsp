@@ -116,19 +116,19 @@
             latlng: new kakao.maps.LatLng(ch.rentBikeStatus.row[0].stationLatitude, ch.rentBikeStatus.row[0].stationLongitude)
           },
           {
-            content: '<div>'+ch.rentBikeStatus.row[1].stationName+' <br>거치율: '+ch.rentBikeStatus.row[1].shared+''</div>',
+            content: '<div>'+ch.rentBikeStatus.row[1].stationName+' <br>거치율: '+ch.rentBikeStatus.row[1].shared+'</div>',
             latlng: new kakao.maps.LatLng(ch.rentBikeStatus.row[1].stationLatitude, ch.rentBikeStatus.row[1].stationLongitude)
           },
           {
-            content: '<div>'+ch.rentBikeStatus.row[2].stationName+' <br>거치율: '+ch.rentBikeStatus.row[2].shared+''</div>',
+            content: '<div>'+ch.rentBikeStatus.row[2].stationName+' <br>거치율: '+ch.rentBikeStatus.row[2].shared+'</div>',
             latlng: new kakao.maps.LatLng(ch.rentBikeStatus.row[2].stationLatitude, ch.rentBikeStatus.row[2].stationLongitude)
           },
           {
-            content: '<div>'+ch.rentBikeStatus.row[3].stationName+' <br>거치율: '+ch.rentBikeStatus.row[3].shared+''</div>',
+            content: '<div>'+ch.rentBikeStatus.row[3].stationName+' <br>거치율: '+ch.rentBikeStatus.row[3].shared+'</div>',
             latlng: new kakao.maps.LatLng(ch.rentBikeStatus.row[3].stationLatitude, ch.rentBikeStatus.row[3].stationLongitude)
           },
           {
-            content: '<div>'+ch.rentBikeStatus.row[4].stationName+' <br>거치율: '+ch.rentBikeStatus.row[4].shared+''</div>',
+            content: '<div>'+ch.rentBikeStatus.row[4].stationName+' <br>거치율: '+ch.rentBikeStatus.row[4].shared+'</div>',
             latlng: new kakao.maps.LatLng(ch.rentBikeStatus.row[4].stationLatitude, ch.rentBikeStatus.row[4].stationLongitude)
           }
         ];
