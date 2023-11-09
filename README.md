@@ -21,3 +21,5 @@ JSP, Mysql, Tomcat9, Github
 ***
 ![로그인 + 회원가입](https://github.com/kkameoo/cocktailproject/assets/116774845/f785c528-a0db-4e40-a29c-9f09a100703e)  
 회원가입 + 로그인 기능
+![게시물 올리기](https://github.com/kkameoo/cocktailproject/assets/116774845/e2b87889-667b-4d8e-99ed-09a6e28dc71b)        
+게시물 작성 기능
