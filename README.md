@@ -25,3 +25,5 @@ JSP, Mysql, Tomcat9, Github
 게시물 작성 기능
 ![게시물 수정](https://github.com/kkameoo/cocktailproject/assets/116774845/f5631e62-a056-43fe-894c-31a947f2e658)        
 게시물 수정 기능
+![자전거 길4](https://github.com/kkameoo/cocktailproject/assets/116774845/e00eeef9-dc6b-41cf-a4cc-e9f59162315c)        
+카카오 api를 이용한 자전거 길 표시
