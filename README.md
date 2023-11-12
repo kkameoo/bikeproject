@@ -19,11 +19,14 @@ JSP, Mysql, Tomcat9, Github
 
 ### 기능 구현
 ***
+## 회원가입 + 로그인 기능
 ![로그인 + 회원가입](https://github.com/kkameoo/cocktailproject/assets/116774845/f785c528-a0db-4e40-a29c-9f09a100703e)  
-회원가입 + 로그인 기능
+## 게시물 작성 기능
 ![게시물 올리기2](https://github.com/kkameoo/cocktailproject/assets/116774845/d942f6c5-12c7-4c3f-b7fa-20112aa28027)            
-게시물 작성 기능
+## 게시물 수정 기능
 ![게시물 수정](https://github.com/kkameoo/cocktailproject/assets/116774845/f5631e62-a056-43fe-894c-31a947f2e658)        
-게시물 수정 기능
-![자전거 길4](https://github.com/kkameoo/cocktailproject/assets/116774845/e00eeef9-dc6b-41cf-a4cc-e9f59162315c)        
-카카오 api를 이용한 자전거 길 표시
+## 카카오 api를 이용한 자전거 길 표시
+![자전거 길4](https://github.com/kkameoo/cocktailproject/assets/116774845/e00eeef9-dc6b-41cf-a4cc-e9f59162315c)       
+![맵 기능](https://github.com/kkameoo/midterm/assets/116774845/a2843344-6f43-4a6d-a364-9156a08d7e79)    
+## 공공 데이터 api를 이용한 자전거 거치소 표시 및 검색 기능
+![자전거 거치소 기능](https://github.com/kkameoo/midterm/assets/116774845/9b2e365b-b83c-4e6b-a8d7-196357a3b745)    
