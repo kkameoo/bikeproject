@@ -3,10 +3,11 @@
 ### 목차
 ***
 - [포트폴리오 개요](https://github.com/kkameoo/bikeproject#포트폴리오-개요)
-- [기술 및 도구](https://github.com/kkameoo/bikeproject#기술-및-도구)    
+- [기술 및 도구](https://github.com/kkameoo/bikeproject#기술-및-도구)
+- [백엔드 사용 기술](https://github.com/kkameoo/bikeproject#백엔드-사용-기술)          
 - [기능 구현](https://github.com/kkameoo/bikeproject#기능-구현)
 - [참고 자료](https://github.com/kkameoo/bikeproject#참고-자료)
-- [시현 영상](https://github.com/kkameoo/bikeproject#시현-영상)
+- [시현 영상](https://github.com/kkameoo/bikeproject#시현-영상)    
 ### 포트폴리오 개요
 ***
 ![바이크로고](https://github.com/kkameoo/cocktailproject/assets/116774845/dd39e496-cd08-472b-a04c-35b0416a7432)
@@ -45,6 +46,7 @@
 ![자전거 거치소 기능](https://github.com/kkameoo/midterm/assets/116774845/9b2e365b-b83c-4e6b-a8d7-196357a3b745)    
 
 ### 참고 자료
+***
 서울 공공 데이터 포털    
 https://data.seoul.go.kr/dataList/OA-15493/A/1/datasetView.do;jsessionid=233CE903A877D73A3CF98BD9D19696A8.new_portal-svr-11    
 카카오 맵 api    
